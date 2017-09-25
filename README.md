@@ -6,7 +6,7 @@ cuting process of an ELF file based on RISC-V ISA. This simulator is developed i
 
 # How To Use The Simulator
 The simulator is a class which wrap the virtual CPU class. The program will create a simulator object at the begining, and run the debug process and execute the simulation through this simulator object. Then it will read the ELF file through the "parse_elf" function, preprocess the file and then run into the "run function". "run" function will receive the user's input instructions and then run the CPU, set the breakpoints, output the register's value, print the memory.
-
+![](https://github.com/Zihua-Liu/RISCV-Simulator/blob/master/img/instruction.jpg)
 
 # Example
 The following example shows the simulator executing a Quick-Sort program. The inital array is {3, 10, 7, 11, 19, 20, 1, 8, 6, 15, 2, 14, 4, 5, 12, 18, 9, 13, 16, 17}.
