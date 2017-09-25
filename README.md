@@ -10,3 +10,4 @@ The simulator is a class which wrap the virtual CPU class. The program will crea
 
 # Example
 The following example shows the simulator executing a Quick-Sort program. The inital array is {3, 10, 7, 11, 19, 20, 1, 8, 6, 15, 2, 14, 4, 5, 12, 18, 9, 13, 16, 17}.
+![](https://github.com/Zihua-Liu/RISCV-Simulator/blob/master/img/example.jpg)
